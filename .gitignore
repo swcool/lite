@@ -1,0 +1,6 @@
+_site
+*.swp
+*_
+.project
+.DS_Store
+.idea
