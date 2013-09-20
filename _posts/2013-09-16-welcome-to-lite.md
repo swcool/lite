@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Welcome to Lite"
-date:   2013-09-15 11:23:00
 categories: blog
 ---
  
