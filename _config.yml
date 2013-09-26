@@ -5,6 +5,9 @@ url:
 title: 
 author: 
 
+twitter:
+disqus_shortname:
+
 # --------------------- #
 #   Jekyll & Plugin 
 # --------------------- #
