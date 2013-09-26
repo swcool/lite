@@ -6,7 +6,9 @@ title:
 author: 
 
 twitter:
-disqus_shortname:
+
+# Change example to yours
+disqus_shortname: example
 
 # --------------------- #
 #   Jekyll & Plugin 
