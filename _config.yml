@@ -4,8 +4,14 @@
 url:  
 title: 
 author: 
+# List categories here, not tags
+categories: blog
+
+permalink: /:categories/:title
 
 twitter:
+googleplus:
+
 
 # Change example to yours
 disqus_shortname: example
