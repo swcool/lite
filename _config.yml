@@ -5,7 +5,7 @@ url:
 title: 
 author: 
 # List categories here, not tags
-categories: blog
+categories: [blog]
 
 permalink: /:categories/:title
 

@@ -4,15 +4,21 @@ layout: default
 
 <section class="content">
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!-- p class="meta">{{ page.date | date_to_string }}</p -->
+<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . 
+      <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
+  <br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}/" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  
+    {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
+  <div style="display:inline-block;">{% include twitter.html %}
+    <div style="display:inline-block;">{% include googleplus.html %}</div>
+</h5>
 
 <div class="post">
 {{ content }}
 </div>
 <br/>
 <br/>
-{% include twitter.html %}
-{% include googleplus.html %}
+
 <hr>
 {% include disqus.html %}
 
